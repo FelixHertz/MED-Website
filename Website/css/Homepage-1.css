@@ -1,0 +1,474 @@
+
+ @font-face {
+    font-family: Eina04;
+    src: url("../assets/fonts/Eina04-Bold.ttf") format('truetype');
+}
+
+ @font-face {
+    font-family: Eina03;
+    src: url("../assets/fonts/Eina03-Bold.ttf") format('truetype');
+}
+ @font-face {
+    font-family: Dreamy;
+    src: url("../assets/fonts/Dreamy Land Medium.ttf") format('truetype');
+}
+
+/** Hier setzten wir die Schriftart für den Body **/
+
+body {
+ 	margin: 0;
+	font-family: Eina03;
+  
+}
+
+
+/** Hier beginnt der Header **/
+
+.Outer {
+	margin:0;
+	background:#555;
+	padding: 3vw;
+}
+
+.Cup {
+ 
+	position: absolute;
+  	left: 5%;
+   	float: left;
+  	padding: 1vw;
+  	margin-top: -3%;
+	
+}
+
+.Coffee {
+
+  	position: absolute;
+  	left: 42%;
+   	float: left;
+	padding-top: 1vw;
+  	margin-top: -1.5%;
+  
+}
+
+.Kontakt {
+	font-size: 1vw;
+ 	color: white;
+  	position: absolute;
+  	left: 85%;
+   	float: left;
+  	padding: 0.5vw;
+   	margin-top: -1%;
+	text-decoration: inherit;
+	
+}
+
+.Menue {
+	font-size: 1vw;
+  	color: white;
+  	position: absolute;
+  	left: 90%;
+   	float: left;
+  	padding: 0.5vw;
+   	margin-top: -1%;
+	text-decoration: inherit;
+}
+
+.Menue:hover {
+	
+	background-color: #5F3829;
+}
+
+.Kontakt:hover {
+	
+	background-color: #5F3829;
+}
+
+
+
+
+/** Hier beginnt die Headline "Starte dent Tag..." **/
+
+.Headline {
+	font-family: Dreamy;
+	color: white; 
+	background-color: transparent;
+	position: absolute;
+	
+  	top: 10vw;
+  	left: 8%;
+ 
+	padding: 1vw 3vw 1vw 3vw;
+	font-size: 4vw;
+}
+
+/** Hier beginnt das Hintergrund-Bild für die Startseite **/
+
+.Main {
+  
+  	background-image: url("../assets/Unbenannt-2.png");
+  	height: 100%;
+	width: auto;
+	padding-bottom: 50vw;
+	margin-left: 0px;
+	margin-right: 0;
+	margin-top: 0;
+	padding-top: 0;
+ 	background-size: cover;
+  	background-repeat: no-repeat;
+}
+
+.MainOuter {
+	
+	height: auto;
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	padding-top: 0;
+	background-size: cover;
+  	background-repeat: no-repeat;
+}
+
+/** Hier beginnt der Knopf unter der Headline "Starte dent Tag..." **/
+
+
+.btn {
+ 
+  	color: white; 
+	background-color: transparent;
+  	border: 7px solid white;
+	position: absolute;
+	border-radius: 20px;
+  	top: 25vw;
+  	left: 11%;
+	padding: 1vw 3vw 1vw 3vw;
+	font-size: 2vw;
+	box-shadow: 0px 0px 100px 30px rgba(1,1,1,0.5);
+
+	
+}
+
+.btn:hover 
+{
+	background: black;
+	color:white;
+	border: 7px solid black;
+	
+}
+
+
+/** Hier beginnt die Box von "Kaffe1" **/
+
+.Kaffe1 {
+	margin-right: 5vw;
+	margin-bottom: 5vw;
+	border-radius: 10px;
+	float:left;
+	background: white;
+	position: absolute;
+  	left: 50%;
+	padding-top: 10vw;
+  	margin-top: -1.5%;
+	box-shadow: 0px 0px 100px 30px rgba(1,1,1,0.5);
+	
+}
+
+
+/** Hier beginnt die Box von "Kaffe2" **/
+
+.Kaffe2 {
+	
+	border-radius: 10px;
+	float:left;
+	background: white;
+	position: absolute;
+  	left: 10%;
+	padding-top: 10vw;
+  	margin-top: -1.5%;
+	box-shadow: 0px 0px 100px 30px rgba(1,1,1,0.5);
+}
+
+/** Hier beginnt die Box von "Kaffe3" **/
+
+.Kaffe3 {
+	margin-right: 5vw;
+	margin-bottom: 5vw;
+	border-radius: 10px;
+	float:left;
+	background: white;
+	position: absolute;
+  	left: 50.2%;
+	padding-top: 10vw;
+  	margin-top: 35%;
+	box-shadow: 0px 0px 100px 30px rgba(1,1,1,0.5);
+	
+}
+
+
+/** Hier beginnt die Box von "Kaffe4" **/
+
+
+.Kaffe4 {
+	
+	border-radius: 10px;
+	float:left;
+	background: white;
+	position: absolute;
+  	left: 10%;
+	padding-top: 10vw;
+	margin-top: 35%;
+	box-shadow: 0px 0px 100px 30px rgba(1,1,1,0.5);
+}
+
+
+/** Hier beginnen die Bilder in den Boxen **/
+
+.Bild {
+	
+	float:right;
+  	margin-top: -2vw;
+	margin-left: 15vw;
+	margin-right: 3vw;
+	
+}
+/** Hier beginnt der Text wie z.B. "Espresso" **/
+
+.Kaffetext {
+	font-size: 1vw;
+	float:left;
+	margin-bottom: 0%;
+	margin-left: 3vw;
+	margin-right: 0vw;
+}
+
+/** Hier beginnt der Knopf für "Bestellen" in den Boxen **/
+
+.btn-kaffe {
+ 	font-family: Eina03;
+  	color: black; 
+	background-color: transparent;
+  	border: 3px solid black;
+	position: absolute;
+	border-radius: 20px;
+  	top: 60%;
+  	left: 5%;
+	padding: 1vw 3vw 1vw 3vw;
+	font-size: 1vw;
+}
+
+.btn-kaffe:hover {
+ 	background: black;
+	color:white;
+  
+}
+
+/** Hier beginnt die Überschrift für "Beliebteste Kaffe Sorten"  **/
+
+.Kaffetext-Main {
+	font-family: Eina04;
+  	font-size: 3vw;
+	text-align: center;
+	margin-left: -3vw;
+	padding-top: 1vw;
+  	margin-top: -1.5%;
+	margin-bottom: 5vw;
+}
+
+
+/** Hier beginnt der Knopf für "Alle Sorten"  **/
+
+
+.AllCoffee {
+	
+	border-radius: 10px;
+	float:left;
+	background: white;
+	position: absolute;
+  	left: 43.5%;
+	margin-top: 67vw;
+	margin-bottom: 5vw;
+	
+	
+}
+
+
+
+/** Hier beginnt das "Über Uns"-Abteil **/
+
+
+.UeberUns {
+	
+	background-color: #5F3829;
+	margin-top: 80%;
+}
+
+.UeberUnsText {
+	text-align: center;
+	color: white;
+	margin-top: 40%;
+	font-size: 1.5vw;
+	padding-bottom: 1%;
+}
+
+.UeberUnsVideo {
+	height: 30vw;
+	width: 50vw;
+	position: absolute;
+	margin-left: 16.5%;
+	border-radius: 30px;
+}
+
+.UeberUnsTextMain {
+	
+	color: white;
+	text-align: center;
+	font-size: 4vw;
+	
+}
+
+
+
+/** Hier beginnt das "Map"-Abteil **/
+
+
+
+.MapSection {
+	
+	margin-top: 5%;
+}
+
+.MapImg {
+	margin-left:25%; ;
+	width: 50vw;
+	height: 30vw;
+	border-radius: 20px;
+	box-shadow: 0px 0px 100px 30px rgba(1,1,1,0.5);
+}
+
+.MapTextMain {
+	
+	color: black;
+	text-align: center;
+	font-size: 4vw;
+	
+}
+
+
+
+
+/** Hier beginnt der Footer **/
+
+
+
+.box {
+	margin-top: 2.5%;
+  	float: left;
+  	width: 5vw;
+  	margin-left: 2vw;
+
+}
+
+.box2 {
+	font-size: 1vw;
+	color:white;
+	margin-top: 3.5%;
+  	float: right;
+	padding-right:3vw; 
+}
+
+.all{
+	padding-bottom:10%;
+	background-color:black;
+	margin-top:10%;
+}
+
+.Social {
+	height: 5vw;
+}
+
+.Social:hover {
+	height: 5.5vw;
+}
+
+
+
+
+/** Hier beginnt die Kontakt-Seite **/
+
+/** Hier beginnt das Hintergrundbild der Kontakt Seite **/
+
+.MainImageContact {
+  
+  	background-image: url("../assets/Bohnen.png");
+  	height: 100%;
+	width: auto;
+	padding-bottom: 50vw;
+	margin-left: 0px;
+	margin-right: 0;
+	margin-top: 0;
+	padding-top: 0;
+ 	background-size: cover;
+  	background-repeat: no-repeat;
+}
+
+/** Hier beginnt das Kontakt Formula **/
+
+.FormHeader {
+	
+	margin-bottom: 4vw;
+	font-size: 2vw;
+}
+
+.ContactForm {
+	background-color: white;
+	margin-top: -30vw;
+	box-shadow: 0px 0px 100px 30px rgba(1,1,1,0.5);
+	margin-left: 25vw;
+	margin-right: 25vw;
+	text-align: center;
+	
+}
+
+.ContactFormText {
+	
+	text-align: center;
+	font-size: 1.5vw;
+	padding-top: 1vw;
+	padding-bottom: 5vw;
+	
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #5F3829;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #955840;
+}
+
+.container {
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px;
+}
+
+/** Hier beginnt die "Alle Sorten" Seite **/
+
+  
