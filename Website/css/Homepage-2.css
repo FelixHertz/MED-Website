@@ -1,23 +1,23 @@
 
  @font-face {
-    font-family: Eina04;
-    src: url("../assets/fonts/Eina04-Bold.ttf") format('truetype');
+    font-family: Oleo-Bld;
+    src: url("../assets/fonts/OleoScript-Bold.ttf") format('truetype');
 }
 
  @font-face {
-    font-family: Eina03;
-    src: url("../assets/fonts/Eina03-Bold.ttf") format('truetype');
+    font-family: Oleo-Reg;
+    src: url("../assets/fonts/OleoScript-Regular.ttf") format('truetype');
 }
  @font-face {
     font-family: Dreamy;
-    src: url("../assets/fonts/Dreamy Land Medium.ttf") format('truetype');
+    src: url("../assets/fonts/steelfish rounded bd.ttf") format('truetype');
 }
 
 /** Hier setzten wir die Schriftart für den Body **/
 
 body {
  	margin: 0;
-	font-family: Eina03;
+	font-family: Oleo-Reg;
   
 }
 
@@ -61,6 +61,7 @@ body {
 	text-decoration: inherit;
 	
 }
+
 
 .Kontakt {
 	font-size: 1vw;
@@ -106,7 +107,7 @@ body {
 	background-color: transparent;
 	position: absolute;
 	
-  	top: 10vw;
+  	top: 9vw;
   	left: 8%;
  
 	padding: 1vw 3vw 1vw 3vw;
@@ -117,7 +118,7 @@ body {
 
 .Main {
   
-  	background-image: url("../assets/Unbenannt-2.png");
+  	background-image: url("../assets/Mainimage2.png");
   	height: 100%;
 	width: auto;
 	padding-bottom: 50vw;
@@ -256,7 +257,7 @@ body {
 /** Hier beginnt der Knopf für "Bestellen" in den Boxen **/
 
 .btn-kaffe {
- 	font-family: Eina03;
+ 	font-family: Oleo-Reg;
   	color: black; 
 	background-color: transparent;
   	border: 3px solid black;
@@ -277,7 +278,7 @@ body {
 /** Hier beginnt die Überschrift für "Beliebteste Kaffe Sorten"  **/
 
 .Kaffetext-Main {
-	font-family: Eina04;
+	font-family: Oleo-Bld;
   	font-size: 3vw;
 	text-align: center;
 	margin-left: -3vw;
@@ -310,7 +311,7 @@ body {
 
 .UeberUns {
 	
-	background-color: #5F3829;
+	background-color: #567339;
 	margin-top: 80%;
 }
 
@@ -373,9 +374,9 @@ body {
 
 
 .box {
-	margin-top: 2.5%;
+	margin-top: 3.5%;
   	float: left;
-  	width: 5vw;
+  	width: 3vw;
   	margin-left: 2vw;
 
 }
@@ -395,11 +396,11 @@ body {
 }
 
 .Social {
-	height: 5vw;
+	height: 3vw;
 }
 
 .Social:hover {
-	height: 5.5vw;
+	height: 3.5vw;
 }
 
 
@@ -411,7 +412,7 @@ body {
 
 .MainImageContact {
   
-  	background-image: url("../assets/Bohnen.png");
+  	background-image: url("../assets/Bohnenersatz.png");
   	height: 100%;
 	width: auto;
 	padding-bottom: 50vw;
@@ -463,7 +464,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #5F3829;
+  background-color: #567339;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -472,7 +473,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #955840;
+  background-color: #78A04F;
 }
 
 .container {
