@@ -88,12 +88,12 @@ body {
 
 .Menue:hover {
 	
-	background-color: #5F3829;
+	background-color: #567339;
 }
 
 .Kontakt:hover {
 	
-	background-color: #5F3829;
+	background-color: #567339;
 }
 
 
@@ -149,7 +149,7 @@ body {
  
   	color: white; 
 	background-color: transparent;
-  	border: 0.3vw solid white;
+  	border: 7px solid white;
 	position: absolute;
 	border-radius: 20px;
   	top: 25vw;
@@ -165,7 +165,7 @@ body {
 {
 	background: black;
 	color:white;
-	border: 0.3vw solid black;
+	border: 7px solid black;
 	
 }
 
@@ -260,7 +260,7 @@ body {
  	font-family: Oleo-Reg;
   	color: black; 
 	background-color: transparent;
-  	border: 0.3vw solid black;
+  	border: 3px solid black;
 	position: absolute;
 	border-radius: 20px;
   	top: 60%;
@@ -483,5 +483,164 @@ input[type=submit]:hover {
 }
 
 /** Hier beginnt die "Alle Sorten" Seite **/
+.endbox{
+	padding-bottom:10%;
+	background-color:black;
+	margin-top:5%;
+}
 
+.allesortentopbild {
+	background-image: url("../assets/coffeetopbild.png");
+  	height: 100%;
+	width: auto;
+	padding-bottom: 50vw;
+	margin-left: 0px;
+	margin-right: 0;
+	margin-top: 0;
+	padding-top: 0;
+ 	background-size: cover;
+  	background-repeat: no-repeat; 
+}
+
+.unserespecials {
+	font-family: Oleo-Bld;
+  	font-size: 3vw;
+	text-align: center;
+	margin-left: 27vw;
+	margin-right: 27vw;
+	padding: 1vw;
+  	margin-top: -35%;
+	margin-bottom: 35vw;
+	color:black;
+	background-color: white;
+	box-shadow:0 0 20px 10px rgba(0, 0, 0, 0.5);
+}
+
+/** Hier beginnt die Box von "Kaffe5" **/
+
+.Kaffe5 {
+	margin-right: 5vw;
+	margin-bottom: 5vw;
+	border-radius: 10px;
+	float:left;
+	background: white;
+	position: absolute;
+  	left: 50%;
+	padding-top: 10vw;
+  	margin-top: -1.5%;
+	box-shadow: 0px 0px 100px 30px rgba(1,1,1,0.5);
+	
+}
+
+
+/** Hier beginnt die Box von "Kaffe6" **/
+
+.Kaffe6 {
+	
+	border-radius: 10px;
+	float:left;
+	background: white;
+	position: absolute;
+  	left: 10%;
+	padding-top: 10vw;
+  	margin-top: -1.5%;
+	box-shadow: 0px 0px 100px 30px rgba(1,1,1,0.5);
+}
+
+/** Hier beginnt die Box von "Kaffe7" **/
+
+.Kaffe7 {
+	margin-right: 5vw;
+	margin-bottom: 5vw;
+	border-radius: 10px;
+	float:left;
+	background: white;
+	position: absolute;
+  	left: 50.2%;
+	padding-top: 10vw;
+  	margin-top: 35%;
+	box-shadow: 0px 0px 100px 30px rgba(1,1,1,0.5);
+	
+}
+
+
+/** Hier beginnt die Box von "Kaffe8" **/
+
+
+.Kaffe8 {
+	
+	border-radius: 10px;
+	float:left;
+	background: white;
+	position: absolute;
+  	left: 10%;
+	padding-top: 10vw;
+	margin-top: 35%;
+	box-shadow: 0px 0px 100px 30px rgba(1,1,1,0.5);
+}
+
+.new4 {
+	margin-top: 110%;
+}
+
+/** Hier beginnt die Box von "Kaffe9" **/
+
+.Kaffe9 {
+	margin-right: 5vw;
+	margin-bottom: 5vw;
+	border-radius: 10px;
+	float:left;
+	background: white;
+	position: absolute;
+  	left: 50%;
+	padding-top: 10vw;
+  	margin-top: -1.5%;
+	box-shadow: 0px 0px 100px 30px rgba(1,1,1,0.5);
+	
+}
+
+
+/** Hier beginnt die Box von "Kaffe10" **/
+
+.Kaffe10 {
+	
+	border-radius: 10px;
+	float:left;
+	background: white;
+	position: absolute;
+  	left: 10%;
+	padding-top: 10vw;
+  	margin-top: -1.5%;
+	box-shadow: 0px 0px 100px 30px rgba(1,1,1,0.5);
+}
+
+.newnew4 {
+	margin-top: 182%;
+}
+
+.warenkorpbg {
+	background-color: #567339;
+	margin-top: 220%;
+	padding: 3%;
+	text-align: center;
+	font-size: 5vw;
+	color:white
+}
+
+.warenkorp {
+	margin: 3%;
+	padding: 3%;
+	background-color: white;
+	text-align: center;
+	font-size: 1.5vw;
+	color: black;
+}
+
+.ContactFormallesorten {
+	background-color: white;
+	margin-top: 0vw;
+	margin-left: 25vw;
+	margin-right: 25vw;
+	text-align: center;
+}
   
