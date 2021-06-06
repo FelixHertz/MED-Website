@@ -148,7 +148,7 @@ body {
  
   	color: white; 
 	background-color: transparent;
-  	border: 7px solid white;
+  	border: 0.3vw solid white;
 	position: absolute;
 	border-radius: 20px;
   	top: 25vw;
@@ -164,7 +164,7 @@ body {
 {
 	background: black;
 	color:white;
-	border: 7px solid black;
+	border: 0.3vw solid black;
 	
 }
 
@@ -259,7 +259,7 @@ body {
  	font-family: Eina03;
   	color: black; 
 	background-color: transparent;
-  	border: 3px solid black;
+  	border: 0.3vw solid black;
 	position: absolute;
 	border-radius: 20px;
   	top: 60%;
